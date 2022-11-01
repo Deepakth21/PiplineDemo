@@ -1,3 +1,4 @@
-FROM httpd:latest
-Run apt update
+ FROM httpd:latest
+RUN apt update
+
 
