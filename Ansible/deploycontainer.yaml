@@ -14,7 +14,9 @@
 
     - name: Install pexpect
       pip:
-        name: pexpect
+        name: 
+        - pexpect
+        - docker
 
     - name: Run Docker container
       docker_container:
